@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&family=Inter:wght@300;400;500;600&display=swap");
+
+:root {
+  /* --- Core palette --- */
+  --navy: #0b0f1a; /* Darkest background — main page bg */
+  --navy-mid: #111827; /* Slightly lighter navy, used for nav bg on scroll */
+  --purple-deep: #1e1152; /* Very deep purple for subtle gradients */
+  --purple: #3b1fa8; /* Main brand purple */
+  --violet: #7c3aed; /* Brighter violet — primary accent */
+  --violet-lt: #9d5cf6; /* Lighter violet — hover states, highlights */
+  --lavender: #c4b5fd; /* Soft lavender — secondary text highlights */
+  --white: #f0efff; /* Off-white with a purple tint — main text */
+  --slate: #94a3b8; /* Muted blue-grey — body/subtext */
+  --slate-lt: #cbd5e1; /* Lighter slate — secondary body text */
+
+  /* --- Glass effect values (used on cards) --- */
+  --glass-bg: rgba(255, 255, 255, 0.04); /* Very subtle white overlay */
+  --glass-border: rgba(196, 181, 253, 0.15); /* Faint lavender border */
+
+  /* --- Border radii --- */
+  --radius-sm: 8px; /* Small elements: icons, badges */
+  --radius-md: 14px; /* Medium: feature rows, doc cards */
+  --radius-lg: 22px; /* Large: category cards, pricing cards */
+
+  /* --- Shadow --- */
+  --shadow-card: 0 4px 32px rgba(124, 58, 237, 0.12); /* Purple-tinted card shadow */
+
+  /* --- Animation easing --- */
+  --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* Smooth ease-in-out */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /* padding/border included in element width — prevents layout surprises */
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth; /* Enables smooth scrolling when clicking anchor links */
+  font-size: 16px; /* Base font size — all rem units are relative to this */
+}
+
+body {
+  font-family: "Inter", sans-serif; /* Default font for all body text */
+  background: var(--navy); /* Dark navy page background */
+  color: var(--white); /* Default text colour */
+  overflow-x: hidden; /* Prevents horizontal scroll from absolute elements */
+  -webkit-font-smoothing: antialiased; /* Renders fonts crisply on Mac/iOS */
+}
+
+/* Remove underlines from all links; inherit parent text colour by default */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove bullet points from all lists */
+ul {
+  list-style: none;
+}
+
+/* Images don't overflow their containers */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--navy);
+}
+
+/* .container — centres content and limits max width on wide screens */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
