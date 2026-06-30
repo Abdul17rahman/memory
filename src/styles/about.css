@@ -1,0 +1,11 @@
+section {
+  margin: 20px 0;
+}
+section h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+section p {
+  font-size: 1rem;
+  line-height: 1.5;
+}

@@ -1,0 +1,25 @@
+.app-nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+  margin: 10px 0;
+  list-style: none;
+}
+
+.app-nav-list li {
+  background-color: #f0f0f0;
+  color: black;
+  padding: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 0px solid #ccc;
+}
+
+.app-nav-list li:hover {
+  background-color: #e0e0e0;
+}
+
+.app-nav-list a.active {
+  background-color: #e0e0e0;
+}

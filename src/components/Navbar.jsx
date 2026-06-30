@@ -1,10 +1,12 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "../styles/navbar.css";
 
 export default function Navbar() {
   return (
     <nav>
-      <h1>🧠 Memo</h1>
+      <Link to="/">
+        <h1>🧠 Memo</h1>
+      </Link>
       <ul>
         <li>
           <NavLink to="/">Home</NavLink>

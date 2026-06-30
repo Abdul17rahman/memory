@@ -1,6 +1,12 @@
 import "../styles/homepage.css";
+import { useNavigate } from "react-router-dom";
 
 export default function HomePage() {
+  const navigate = useNavigate();
+
+  function handleClick() {
+    navigate("/app");
+  }
   return (
     <section className="hero">
       <h1>
@@ -12,7 +18,9 @@ export default function HomePage() {
         memories in one place. You can add, edit and delete your memories. You
         can also view your memories in a beautiful way.
       </p>
-      <button className="cta-btn">Get Started</button>
+      <button className="cta-btn" onClick={handleClick}>
+        Get Started
+      </button>
     </section>
   );
 }
