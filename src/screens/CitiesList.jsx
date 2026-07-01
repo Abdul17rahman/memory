@@ -5,7 +5,7 @@ export default function CitiesList({ cities }) {
     <div>
       <ul>
         {cities.map((c) => (
-          <li key={c.city}>
+          <li key={c.id}>
             {c.emoji} - {c.city}
           </li>
         ))}

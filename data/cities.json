@@ -1,6 +1,7 @@
 {
   "cities": [
     {
+      "id": 7464738,
       "city": "New York",
       "emoji": "🇺🇸",
       "country": "USA",
@@ -11,6 +12,7 @@
       "comments": "Known for its iconic skyline and cultural diversity."
     },
     {
+      "id": 7464739,
       "city": "Tokyo",
       "emoji": "🇯🇵",
       "country": "Japan",
@@ -21,6 +23,7 @@
       "comments": "Famous for its blend of traditional and modern culture."
     },
     {
+      "id": 7464740,
       "city": "Paris",
       "emoji": "🇫🇷",
       "country": "France",
@@ -31,6 +34,7 @@
       "comments": "Renowned for its art, fashion, and gastronomy."
     },
     {
+      "id": 7464741,
       "city": "Sydney",
       "emoji": "🇦🇺",
       "country": "Australia",
