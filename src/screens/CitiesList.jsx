@@ -1,6 +1,9 @@
 import React from "react";
+import { useContext } from "react";
+import { CitiesContext } from "../context/CitiesContext";
 
-export default function CitiesList({ cities }) {
+export default function CitiesList() {
+  const { cities } = useContext(CitiesContext);
   return (
     <div>
       <ul>

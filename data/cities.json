@@ -9,7 +9,8 @@
       "coordinates": { "lat": 40.7128, "lng": -74.006 },
       "landmarks": ["Statue of Liberty", "Central Park", "Times Square"],
       "timezone": "Eastern Standard Time",
-      "comments": "Known for its iconic skyline and cultural diversity."
+      "comments": "Known for its iconic skyline and cultural diversity.",
+      "date": "2024-06-15"
     },
     {
       "id": 7464739,
@@ -20,7 +21,8 @@
       "coordinates": { "lat": 35.6895, "lng": 139.6917 },
       "landmarks": ["Tokyo Tower", "Shibuya Crossing", "Meiji Shrine"],
       "timezone": "Japan Standard Time",
-      "comments": "Famous for its blend of traditional and modern culture."
+      "comments": "Famous for its blend of traditional and modern culture.",
+      "date": "2025-08-16"
     },
     {
       "id": 7464740,
@@ -31,7 +33,8 @@
       "coordinates": { "lat": 48.8566, "lng": 2.3522 },
       "landmarks": ["Eiffel Tower", "Louvre Museum", "Notre-Dame Cathedral"],
       "timezone": "Central European Time",
-      "comments": "Renowned for its art, fashion, and gastronomy."
+      "comments": "Renowned for its art, fashion, and gastronomy.",
+      "date": "2023-12-01"
     },
     {
       "id": 7464741,
@@ -42,7 +45,8 @@
       "coordinates": { "lat": -33.8688, "lng": 151.2093 },
       "landmarks": ["Sydney Opera House", "Harbour Bridge", "Bondi Beach"],
       "timezone": "Australian Eastern Standard Time",
-      "comments": "Known for its stunning harbor and beaches."
+      "comments": "Known for its stunning harbor and beaches.",
+      "date": "2024-03-22"
     }
   ]
 }
